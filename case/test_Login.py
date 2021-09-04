@@ -3,7 +3,7 @@
 import time
 import unittest
 from selenium import webdriver
-from page_object.login_page import LoginPage
+from login_page import LoginPage
 from ddt import ddt,data,unpack,file_data
 
 
