@@ -1,9 +1,9 @@
 # 对登录页面进行单元测试
-# 对登录页面进行单元测试
+
 import time
 import unittest
 from selenium import webdriver
-from login_page import LoginPage
+from page_object.login_page import LoginPage
 from ddt import ddt,data,unpack,file_data
 
 
@@ -27,6 +27,6 @@ class TestLogin(unittest.TestCase):
     #     self.lg.login('hd_admin', '000000a')
     #     time.sleep(2)
 
-
-if __name__ == '__main__':
-    unittest.main()
+#
+# if __name__ == '__main__':
+#     unittest.main()
